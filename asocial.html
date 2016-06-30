@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/materialize.css">
+	<title>Región Siglo XXI</title>
+</head>
+<body>
+<!-- Inicio barra principal (igual para todas las vistas)-->
+	<ul id="dropdown1" class="dropdown-content">
+	  <li><a href="asocial.html">Área Social</a></li>
+	  <li class="divider"></li>
+	  <li><a href="ainstitucional.html">Área Desarrollo Institucional</a></li>
+	  <li class="divider"></li>
+	  <li><a href="aambiental.html">Área Gestión Ambiental</a></li>
+	</ul>
+
+	<ul id="dropdown2" class="dropdown-content">
+	  <li><a href="somos.html">¿Quienes somos?</a></li>
+	  <li class="divider"></li>
+	  <li><a href="organi.html">Estructura Organizativa</a></li>
+	</ul>
+
+	<ul id="dropdown3" class="dropdown-content">
+	  <li><a href="asocial.html">Área Social</a></li>
+	  <li class="divider"></li>
+	  <li><a href="ainstitucional.html">Área Desarrollo Institucional</a></li>
+	  <li class="divider"></li>
+	  <li><a href="aambiental.html">Área Gestión Ambiental</a></li>
+	</ul>
+
+	<ul id="dropdown4" class="dropdown-content">
+	  <li><a href="somos.html">¿Quienes somos?</a></li>
+	  <li class="divider"></li>
+	  <li><a href="organi.html">Estructura Organizativa</a></li>
+	</ul>
+	<!-- Def. barra de navegación-->
+	<nav class="se-verde">
+	  <div class="nav-wrapper">
+	    <a href="index.html" class="brand-logo">Fundación Región Siglo XXI</a>
+	    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+	    <ul class="right hide-on-med-and-down">
+	      <!-- Dropdown Trigger -->
+		    <li class="monserrat"><a class="dropdown-button" href="" data-activates="dropdown2">Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
+		    <li class="monserrat"><a class="dropdown-button" href="" data-activates="dropdown1">Áreas de acción<i class="material-icons right">arrow_drop_down</i></a></li>
+		    <li class="monserrat"><a href="experiencia.html">Experiencia</a></li>
+			<li class="monserrat"><a href="proyectos.html">Proyectos</a></li>
+			<li class="monserrat"><a href="contacto.html">Contáctenos</a></li>
+	    </ul>
+	    <ul class="side-nav" id="mobile-demo">
+	        <li class="monserrat"><a class="dropdown-button" href="" data-activates="dropdown4">Nosotros<i class="material-icons right">arrow_drop_down</i></a></li>
+		    <li class="monserrat"><a class="dropdown-button" href="" data-activates="dropdown3">Áreas de acción<i class="material-icons right">arrow_drop_down</i></a></li>
+		    <li class="monserrat"><a href="experiencia.html">Experiencia</a></li>
+			<li class="monserrat"><a href="proyectos.html">Proyectos</a></li>
+			<li class="monserrat"><a href="contacto.html">Contáctenos</a></li>
+      	</ul>
+	  </div>
+	</nav>
+
+<!-- Fin barra principal -->
+
+<!--Body -->
+	<section>
+		<div class="row">
+			<div class="col s12 espacio-arriba">
+				<div class="slider">
+    				<ul class="slides">
+	      				<li>
+	        				<img src="images/asocial1.png"> <!-- random image -->
+	        				<div class="caption left-align ">
+	          					<h5 class="col s12 m4 l3 left light green-text text-lighten-0 text-center">Apoyo a programas que contribuyan con el desarrollo integral de  la niñez, la juventud,  las madres cabeza de familia, el adulto mayor,  los deportistas, y artistas en general con preferencia a los grupos de población vulnerable.</h5>
+	        				</div>
+	      				</li>
+	      				<li>
+				        	<img src="images/asocial2.png"> <!-- random image -->
+				        	<div class="caption right-align">
+				          		<h5 class="col s12 m4 l3 right light green-text text-lighten-0 text-center no-lista quitar-arriba">Promoción, apoyo y ejecución de programas que contribuyan con el desarrollo de las comunidades partícipes o víctimas de la violencia.</h5>
+				        	</div>
+				      	</li>
+					    <li>
+					    	<img src="images/asocial3.png"> <!-- random image -->
+					        <div class="caption right-align">
+					        	<h5 class="col s12 m4 l3 left  light green-text text-lighten-0 text-center">Apoyo  a programas para la implementación de proyectos productivos en lo rural y urbano, que sean rentables sostenibles y fomenten la generación de empleo con énfasis en la economía solidaria con preferencia a la población vulnerable</h5>
+					        </div>
+					    </li>
+    				</ul>
+  				</div>
+			</div>
+		</div>
+	</section>
+
+<!--JavaScript-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script>
+     	$(".button-collapse").sideNav();
+     </script>
+
+     <script >
+      	
+	    $(document).ready(function(){
+	      $('.slider').slider({full_width: true});
+	    });
+	        
+	  </script>
+      
+</body>
+</html>
